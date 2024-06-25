@@ -5,7 +5,7 @@ venv/
 *.log
 
 #data
-data/
+*.tsv
 
 # testing
 .pytest_cache
