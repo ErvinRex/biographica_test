@@ -19,6 +19,12 @@ The ETL pipeline should take as an input an Ensembl release version and the name
 
 3. **Load**: Loads the pandas data frame on to a tab-separated (TSV) file to be used for further research/downstream consumption.
 
+### How to run
+
+1. Navigate to `pipeline`.
+2. Run `python3 pipeline.py` in your terminal. (Feel free to change the parameters inside the main function).
+3. TSV files will appear in the `pipeline/data` folder.
+
 ## Data Cleaning
 
 After the pipeline is complete, running `filtered_gff_df.isnull().values.any()` inside the `main` function of `pipeline.py`, has always returned False, therefore the dataset consists of no `NAN` values without further delving in to more specific cleaning methods.
