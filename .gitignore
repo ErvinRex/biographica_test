@@ -2,6 +2,7 @@
 venv/
 .venv
 *.DS_Store
+*.log
 
 #data
 data/
