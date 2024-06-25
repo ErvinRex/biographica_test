@@ -22,8 +22,10 @@ The ETL pipeline should take as an input an Ensembl release version and the name
 ### How to run
 
 1. Navigate to `pipeline`.
-2. Run `python3 pipeline.py` in your terminal. (Feel free to change the parameters inside the main function).
-3. TSV files will appear in the `pipeline/data` folder.
+2. Create a virtual environment and activate it.
+3. Run `pip3 install -r requirements.txt` to install all required libraries.
+4. Run `python3 pipeline.py` in your terminal. (Feel free to change the parameters inside the main function).
+5. TSV files will appear in the `pipeline/data` folder.
 
 ## Data Cleaning
 
