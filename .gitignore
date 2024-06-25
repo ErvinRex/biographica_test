@@ -1,0 +1,13 @@
+# environment
+venv/
+.venv
+*.DS_Store
+
+#data
+data/
+
+# testing
+.pytest_cache
+__pycache__
+/coverage
+.coverage
