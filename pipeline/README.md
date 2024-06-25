@@ -4,6 +4,11 @@
 
 The ETL pipeline should take as an input an Ensembl release version and the name of an organism and return a tabular file listing the genes of the given organism, ready for downstream consumption. Alongside relevant information about each gene in the same file and any relevant metadata in a separate tabular file (TSV).
 
+## Assumption
+
+- GTF files = GFFv2 files and are seen in all release versions - so these were selected over GFF3 (version 3).
+- The `feature` column is used to distinguish if a row is related to a gene or not.
+
 ## Overview
 
 ### Functions
